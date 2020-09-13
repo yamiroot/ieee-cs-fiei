@@ -666,7 +666,7 @@ p {
   content: "";
   width: 3px;
   height: 0;
-  background-color: #754ef9;
+  background-color: #0068d6;
   left: 50%;
   top: -50px;
   -webkit-transform: translateX(-50%);
@@ -692,7 +692,7 @@ p {
 }
 .navigation .navbar .navbar-nav .nav-item.active a,
 .navigation .navbar .navbar-nav .nav-item:hover a {
-  color: #754ef9;
+  color: #0068d6;
 }
 .navigation .navbar .navbar-nav .nav-item.active a::before,
 .navigation .navbar .navbar-nav .nav-item:hover a::before {
