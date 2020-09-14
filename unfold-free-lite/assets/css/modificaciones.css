@@ -1,0 +1,17 @@
+.logo {
+  width: 150px;
+}
+.separador {
+  height: 50px;
+}
+
+.mv-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
+  -moz-box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
+  box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
+}
