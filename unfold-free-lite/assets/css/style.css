@@ -164,7 +164,7 @@ p {
   font-weight: 700;
   font-size: 45px;
   color: #000;
-  padding-bottom: 20px; }
+  padding-bottom: 32px; }
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px; } }
@@ -992,7 +992,8 @@ p {
 .single-work {
   position: relative; }
   .single-work .work-image img {
-    width: 100%; }
+    width: 500px;
+    height: 500px; }
   .single-work .work-overlay {
     position: absolute;
     top: 0;
@@ -1758,3 +1759,10 @@ p.form-message.success, p.form-message.error {
       cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
+.section-title .title-directiva {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
