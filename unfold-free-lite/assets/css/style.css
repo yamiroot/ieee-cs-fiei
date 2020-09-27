@@ -1233,8 +1233,8 @@ p {
 .single-work {
   position: relative; }
   .single-work .work-image img {
-    width: 1400px;
-    height: 450px;
+    width: 280px;
+    height: 360px;
   }
     
   .single-work .work-overlay {
@@ -2311,6 +2311,23 @@ p.form-message.error.form-message.error {
 }
 
 img.mfp-img {
-  width: 600px;
-  height: 800px;
+  width: 400px;
+  height: 600px;
+}
+
+@media (max-width: 767px) {
+  .single-work {
+    position: relative; }
+    .single-work .work-image img {
+      width: 180px;
+      height: 210px;
+    }
+    .work-center-image{
+      margin: 0 auto;
+    }
+    img.mfp-img {
+      width: 300px;
+      height: 500px;
+    }
+
 }
