@@ -15,3 +15,17 @@
   -moz-box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
   box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
 }
+
+
+/*====Moficaciones by RICHI====*/
+.section-title .title-directiva {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img.mfp-img {
+  width: 600px;
+  height: 800px;
+}
