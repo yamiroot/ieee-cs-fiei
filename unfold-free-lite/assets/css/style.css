@@ -2302,3 +2302,15 @@ p.form-message.error.form-message.error {
   cursor: pointer;
 }
 
+/*====Moficaciones by RICHI====*/
+.section-title .title-directiva {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img.mfp-img {
+  width: 600px;
+  height: 800px;
+}
