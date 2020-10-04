@@ -31,6 +31,8 @@
     1. COMMON css 
 ===========================*/
 
+@import './history.css';
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
   font-family: "Poppins", sans-serif;
@@ -1231,10 +1233,13 @@ p {
 }
 
 .single-work {
-  position: relative; }
+  position: relative; 
+  clip-path: circle(50% at 50% 50%);
+  }
   .single-work .work-image img {
     width: 280px;
     height: 360px;
+    
   }
     
   .single-work .work-overlay {
@@ -2303,6 +2308,7 @@ p.form-message.error.form-message.error {
 }
 
 /*====Moficaciones by RICHI====*/
+
 .section-title .title-directiva {
   font-weight: 700;
   font-size: 45px;
@@ -2315,12 +2321,21 @@ img.mfp-img {
   height: 600px;
 }
 
+.directiva-area{
+  padding-bottom: 120px;
+  padding-top: 0px;
+  background-color: #ffffff;
+}
+.directiva-contenedor{
+margin: 10px 20px;
+}
 @media (max-width: 767px) {
   .single-work {
     position: relative; }
     .single-work .work-image img {
       width: 180px;
       height: 210px;
+
     }
     .work-center-image{
       margin: 0 auto;
@@ -2331,3 +2346,4 @@ img.mfp-img {
     }
 
 }
+
