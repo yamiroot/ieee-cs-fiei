@@ -5,16 +5,16 @@ const dataFounders = {
         img: './assets/images/history_cs/arturo-badillo.jpeg',
         alt: 'Arturo Badillo',
         position: '1er presidente',
-        ocupation: '',
-        commentary: 'GGGGGGGGGGGG'
+        ocupation: 'Senior Backend Developer en Banco de Comercio Perú',
+        commentary: ''
     },
     victorMiranda: {
         name: 'Victor Miranda',
         img: './assets/images/history_cs/victor-miranda.png',
         alt: 'Victor Miranda',
         position: '1er secretario',
-        ocupation: '',
-        commentary: ''
+        ocupation: 'Desarrollador de aplicaciones móviles en una FINTECH.',
+        commentary: '"Sobre mi experiencia trabajando en Computer, fue lo mejor, mejoro mi comunicación en equipo, eramos bien coordinados en su fundación, me dio la oportunidad de conocer gente que compartía la pasión por la carrera, y mejorar mis habilidades como profesional en el área."'
     }
 }
 
