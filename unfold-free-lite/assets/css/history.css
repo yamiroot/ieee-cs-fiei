@@ -1,15 +1,11 @@
 
+.modal {
+    background: #161619b8;
+}
+
 .item-img {
     cursor: pointer;
 }
-
-
-/* */
-
-
-
-/* */
-
 
 
 @media (max-width: 319px) {
@@ -19,14 +15,15 @@
     }
 
     .div-item-img, .item-img {
-        width: 120px;
-        height: 120px;
+        width: 60vw;
+        height: 60vw;
     }
 
     .div-item-img {
         margin: 3%;
     }
 }
+
 
 @media (min-width: 320px) and (max-width: 479px) {
     #div-container-founders {
@@ -35,48 +32,51 @@
     }
 
     .div-item-img, .item-img {
-        width: 150px;
-        height: 150px;
+        width: 55vw;
+        height: 55vw;
     }
 
     .div-item-img {
         margin: 2%;
     }
 }
+
 
 @media (min-width: 480px) and (max-width: 767px) {
     #div-container-founders {
-        width: 90vw;
+        width: 90%;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .div-item-img, .item-img {
-        width: 20vw;
-        height: 20vw;
+        width: 40vw;
+        height: 40vw;
     }
 
     .div-item-img {
-        margin: 2%;
+        margin: 2vw;
     }
 }
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
     #div-container-founders {
-        width: 90vw;
+        width: 85vw;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .div-item-img, .item-img {
-        width: 15vw;
-        height: 15vw;
+        width: 30vw;
+        height: 30vw;
     }
 
     .div-item-img {
-        margin: 2%;
+        margin: 4%;
     }
 }
+
 
 @media (min-width: 1024px) and (max-width: 1199px) { 
     #div-container-founders {
@@ -86,14 +86,15 @@
     }
 
     .div-item-img, .item-img {
-        width: 13vw;
-        height: 13vw;
+        width: 25vw;
+        height: 25vw;
     }
 
     .div-item-img {
         margin: 2%;
     }
 }
+
 
 @media (min-width: 1200px) {
     #div-container-founders {
@@ -103,8 +104,8 @@
     }
 
     .div-item-img, .item-img {
-        width: 13vw;
-        height: 13vw;
+        width: 18vw;
+        height: 18vw;
     }
 
     .div-item-img {

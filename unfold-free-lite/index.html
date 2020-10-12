@@ -415,31 +415,31 @@
                 <div class="d-flex justify-content-center div-item-img single-work">
                   <img src="./assets/images/history_cs/arturo-badillo.jpeg" alt="" class="rounded-circle item-img">
                   <section class="div-item-img rounded-circle work-overlay m-0 d-flex flex-column align-items-center justify-content-center">
-                      <button type="button" class="btn btn-light rounded-circle button-founder" data-toggle="modal" data-target="#modalFounder" data-val="arturo-badillo">
-                        <i class="lni lni-magnifier"></i></button>
+                      <button type="button" class="btn btn-light rounded-circle button-founder" data-val="arturo-badillo">
+                        <i class="lni lni-magnifier" data-val="arturo-badillo"></i></button>
                   </section>
                 </div>
 
                 <div class="d-flex justify-content-center div-item-img single-work">
                   <img src="./assets/images/history_cs/victor-miranda.png" alt="" class="rounded-circle item-img">
                   <section class="div-item-img rounded-circle work-overlay m-0 d-flex flex-column align-items-center justify-content-center">
-                      <button type="button" class="btn btn-light rounded-circle button-founder" data-toggle="modal" data-target="#modalFounder" data-val="victor-miranda">
+                      <button type="button" class="btn btn-light rounded-circle button-founder" data-val="victor-miranda">
+                        <i class="lni lni-magnifier" data-val="victor-miranda"></i></button>
+                  </section>
+                </div>
+
+                <div class="d-flex justify-content-center div-item-img single-work">
+                  <img src="./assets/images/history_cs/annie-azaña.png" alt="" class="rounded-circle item-img">
+                  <section class="div-item-img rounded-circle work-overlay m-0 d-flex flex-column align-items-center justify-content-center">
+                      <button type="button" class="btn btn-light rounded-circle">
                         <i class="lni lni-magnifier"></i></button>
                   </section>
                 </div>
 
                 <div class="d-flex justify-content-center div-item-img single-work">
-                  <img src="./assets/images/history_cs/arturo-badillo.jpeg" alt="" class="rounded-circle item-img">
+                  <img src="./assets/images/history_cs/ivan-medina.png" alt="" class="rounded-circle item-img">
                   <section class="div-item-img rounded-circle work-overlay m-0 d-flex flex-column align-items-center justify-content-center">
-                      <button type="button" class="btn btn-light rounded-circle" data-toggle="modal" data-target="#modalFounder">
-                        <i class="lni lni-magnifier"></i></button>
-                  </section>
-                </div>
-
-                <div class="d-flex justify-content-center div-item-img single-work">
-                  <img src="./assets/images/history_cs/arturo-badillo.jpeg" alt="" class="rounded-circle item-img">
-                  <section class="div-item-img rounded-circle work-overlay m-0 d-flex flex-column align-items-center justify-content-center">
-                      <button type="button" class="btn btn-light rounded-circle" data-toggle="modal" data-target="#modalFounder">
+                      <button type="button" class="btn btn-light rounded-circle">
                         <i class="lni lni-magnifier"></i></button>
                   </section>
                 </div>
@@ -464,8 +464,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 ">
             <div class="section-title pb-25">
-              <h2 class="animate__animated animate__bounce title title-directiva">Directiva Computer Society IEEE UNFV
-                2020</h2>
+              <h2 class="animate__animated animate__bounce title title-directiva">
+                Directiva Computer Society IEEE UNFV 2020
+              </h2>
             </div> <!-- section title -->
           </div>
         </div> <!-- row -->
@@ -904,6 +905,36 @@
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalFounder" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="title-founder-modal"></h5>
+            <button type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="close">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+              <div id="div-img-modal">
+                <img src="" alt="" class="rounded-circle item-img">
+              </div>
+              <div id="div-position-founder-modal"></div>
+              <div id="div-ocupation-founder-modal"></div>
+              <div id="div-commentary-founder-modal">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info close" data-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
 
