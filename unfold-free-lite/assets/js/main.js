@@ -94,7 +94,7 @@
     $('.image-popup').magnificPopup({
       type: 'image',
       gallery:{
-        enabled:true
+        enabled:false
       }
     });
     
