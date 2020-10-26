@@ -1,12 +1,44 @@
 
 .modal {
     background: #161619b8;
+
 }
+
+
 
 .item-img {
     cursor: pointer;
 }
 
+.modal-body-founder {
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+#div-commentary-founder-modal p {
+    line-height: 1.3rem;
+}
+
+.modal-header, .modal-footer {
+    background: rgba(59, 126, 252, 0.678);
+}
+
+.modal-founder {
+    animation-name: modal;
+    animation-duration: 2s;
+}
+
+@keyframes modal {
+    from {
+        top: -330px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
 
 @media (max-width: 319px) {
     #div-container-founders {
@@ -21,6 +53,27 @@
 
     .div-item-img {
         margin: 3%;
+    }
+
+    .modal-founder {
+        width: 85vw;
+    }
+
+    .modal-body-founder {
+        height: 230px;
+    }
+
+    .img-founder-modal {
+        width: 38vw;
+        height: 38vw;
+    }
+
+    .modal > div {
+        font-size: 12px;
+    }
+
+    .font-size {
+        font-size: 12px;
     }
 }
 
@@ -38,6 +91,23 @@
 
     .div-item-img {
         margin: 2%;
+    }
+
+    .modal-founder {
+        width: 75vw;
+    }
+
+    .modal-body-founder {
+        height: 270px;
+    }
+
+    .img-founder-modal {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .font-size {
+        font-size: 13px;
     }
 }
 
@@ -57,6 +127,23 @@
     .div-item-img {
         margin: 2vw;
     }
+
+    .modal-founder {
+        width: 60vw;
+    }
+
+    .modal-body-founder {
+        height: 290px;
+    }
+
+    .img-founder-modal {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .font-size {
+        font-size: 14px;
+    }
 }
 
 
@@ -74,6 +161,23 @@
 
     .div-item-img {
         margin: 4%;
+    }
+
+    .modal-founder {
+        width: 45vw;
+    }
+
+    .modal-body-founder {
+        height: 300px;
+    }
+
+    .img-founder-modal {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .font-size {
+        font-size: 14px;
     }
 }
 
@@ -93,6 +197,23 @@
     .div-item-img {
         margin: 2%;
     }
+
+    .modal-founder {
+        width: 37vw;
+    }
+
+    .modal-body-founder {
+        height: 320px;
+    }
+
+    .img-founder-modal {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .font-size {
+        font-size: 14.5px;
+    }
 }
 
 
@@ -110,5 +231,22 @@
 
     .div-item-img {
         margin: 2%;
+    }
+
+    .modal-founder {
+        width: 35vw;
+    }
+
+    .modal-body-founder {
+        height: 350px;
+    }
+
+    .img-founder-modal {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .font-size {
+        font-size: 15px;
     }
 }
