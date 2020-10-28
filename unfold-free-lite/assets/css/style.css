@@ -282,7 +282,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #754ef9 #754ef9 #ddd;
+  border-color: #004FA3 #004FA3 #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -1267,7 +1267,6 @@ p {
       -o-transform: translateY(-50%);
       transform: translateY(-50%); }
       .single-work .work-overlay .work-content .work-title {
-        font-size: 22px;
         color: #fff;
         font-weight: 60;
         -webkit-transform: translateY(-100%);
