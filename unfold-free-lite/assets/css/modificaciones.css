@@ -5,6 +5,11 @@
   height: 50px;
 }
 
+#ieee-branch-style {
+  font-size: 22px;
+  color: #002c5c;
+}
+
 #mv {
   margin-top: 40px;
   display: flex;
