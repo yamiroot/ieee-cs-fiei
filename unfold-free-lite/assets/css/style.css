@@ -1441,6 +1441,7 @@ p {
   .blog-area {
     padding-top: 70px;
     padding-bottom: 80px;
+    
   }
 }
 
@@ -1451,10 +1452,9 @@ p {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  
 }
-.single-blog .blog-image {
-  overflow: hidden;
-}
+
 .single-blog .blog-image img {
   width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1462,7 +1462,9 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+ 
 }
+
 .single-blog .blog-content {
   width: 75%;
   position: absolute;
@@ -1476,6 +1478,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 @media (max-width: 767px) {
   .single-blog .blog-content {
     padding: 20px;
@@ -1512,9 +1515,10 @@ p {
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
+  
 }
 .single-blog:hover .blog-content {
-  background-color: #754ef9;
+  background-color: #004FA3;
 }
 .single-blog:hover .blog-content .blog-title a {
   color: #fff;
