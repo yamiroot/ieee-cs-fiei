@@ -1,8 +1,30 @@
 .logo {
-  width: 150px;
+  max-width: 210px;
 }
 .separador {
   height: 50px;
+}
+
+#ieee-branch-style {
+  font-size: 22px;
+  color: #002c5c;
+}
+
+.portada {
+  position: relative;
+}
+
+.imagenFondo {
+  width: 100%;
+  opacity: 0.6;
+  filter: blur(5px);
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerContent {
+  position: absolute;
+  left: 5%;
 }
 
 #mv {
@@ -21,7 +43,7 @@
 }
 .mv-container {
   margin: 20px;
-  width: 350px;
+  max-width: 350px;
   height: 350px;
   display: flex;
   flex-wrap: wrap;
@@ -31,4 +53,5 @@
   -webkit-box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
   -moz-box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
   box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
+  overflow-x: hidden;
 }

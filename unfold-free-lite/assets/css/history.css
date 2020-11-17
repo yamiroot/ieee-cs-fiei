@@ -1,18 +1,47 @@
-
 .modal {
-    background: #161619b8;
-
+    background: rgb(27 27 27 / 59%);
 }
-
-
 
 .item-img {
     cursor: pointer;
 }
 
+.img-founder-modal, .item-img {
+    object-fit: cover;
+}
+
+.container-item-founder{
+    border: 7px solid #428DDD;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+      50% {
+          border-style: solid;
+          border-color: #004FA3;
+      }
+  }
+
 .modal-body-founder {
     overflow-x: scroll;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar, .modal-body-founder::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track, .modal-body-founder::-webkit-scrollbar-track {
+    background: #002C5C;
+}
+
+body::-webkit-scrollbar-thumb, .modal-body-founder::-webkit-scrollbar-thumb {
+    background: rgba(59, 126, 252, 0.68);
+    border-radius: 5px;
+}
+
+.modal-body-founder::-webkit-scrollbar-thumb:active{
+    background: #004FA3;
 }
 
 #div-commentary-founder-modal p {
@@ -26,6 +55,10 @@
 .modal-founder {
     animation-name: modal;
     animation-duration: 2s;
+}
+
+.button-founder:hover {
+    color: rgba(59, 126, 252, 0.678);
 }
 
 @keyframes modal {
@@ -68,12 +101,12 @@
         height: 38vw;
     }
 
-    .modal > div {
+    .font-size {
         font-size: 12px;
     }
 
-    .font-size {
-        font-size: 12px;
+    .font-size-founder {
+        font-size: 14px;
     }
 }
 
@@ -108,6 +141,10 @@
 
     .font-size {
         font-size: 13px;
+    }
+
+    .font-size-founder {
+        font-size: 16px;
     }
 }
 
@@ -144,6 +181,10 @@
     .font-size {
         font-size: 14px;
     }
+
+    .font-size-founder {
+        font-size: 20px;
+    }
 }
 
 
@@ -178,6 +219,10 @@
 
     .font-size {
         font-size: 14px;
+    }
+
+    .font-size-founder {
+        font-size: 21px;
     }
 }
 
@@ -214,6 +259,10 @@
     .font-size {
         font-size: 14.5px;
     }
+
+    .font-size-founder {
+        font-size: 22px;
+    }
 }
 
 
@@ -248,5 +297,9 @@
 
     .font-size {
         font-size: 15px;
+    }
+
+    .font-size-founder {
+        font-size: 22px;
     }
 }
