@@ -28,7 +28,7 @@
 }
 
 body::-webkit-scrollbar, .modal-body-founder::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.8rem;
 }
 
 body::-webkit-scrollbar-track, .modal-body-founder::-webkit-scrollbar-track {
