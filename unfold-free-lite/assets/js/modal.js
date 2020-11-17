@@ -2,7 +2,7 @@
 const dataFounders = {
     arturoBadillo: {
         name: 'Arturo Badillo',
-        img: './assets/images/history_cs/arturo-badillo.jpeg',
+        img: './assets/images/history_cs/arturo-badillo.png',
         alt: 'Arturo Badillo',
         position: '1er Vicepresidente - Fundador',
         ocupation: 'Backend Senior Developer en Banco de Comercio.',
@@ -104,7 +104,7 @@ fnGeneratorContentModal = (pClassContent, pClassBody, pContentTemplate) => {
             <div id="div-position-founder-modal" class="text-center mt-1 mb-1 font-size text-primary">${pContentTemplate.position}</div>
             <div id="div-ocupation-founder-modal" class="text-center mt-1 mb-1 font-size mb-1 pr-1 pl-1">Actualmente se desempeña como ${pContentTemplate.ocupation}</div>
             <div id="div-commentary-founder-modal" class="text-center mt-1 mb-1 pr-1 pl-1">
-                <p class="text-center font-size">Sobre su experiencia en Computer Society, comenta: "${pContentTemplate.commentary}".</p>
+                <p class="text-center font-size">${(!!pContentTemplate.commentary) ? `Sobre su experiencia en Computer Society, comenta: "${pContentTemplate.commentary}".` : ''}</p>
             </div>
         </div>
         `;
