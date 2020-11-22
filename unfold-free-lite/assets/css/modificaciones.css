@@ -1,5 +1,5 @@
 .logo {
-  width: 150px;
+  max-width: 210px;
 }
 .separador {
   height: 50px;
@@ -8,6 +8,23 @@
 #ieee-branch-style {
   font-size: 22px;
   color: #002c5c;
+}
+
+.portada {
+  position: relative;
+}
+
+.imagenFondo {
+  width: 100%;
+  opacity: 0.6;
+  filter: blur(5px);
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerContent {
+  position: absolute;
+  left: 5%;
 }
 
 #mv {
