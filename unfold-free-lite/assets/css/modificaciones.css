@@ -60,6 +60,9 @@
     cursor: pointer;
 }
 
+.footer-area {
+    height: 40px;
+}
 
 /*===========================
     Estilos Directiva CSS 
