@@ -54,3 +54,246 @@
   box-shadow: 9px 9px 28px 0px rgba(26, 55, 87, 1);
   overflow-x: hidden;
 }
+
+.mfp-content .mfp-figure .mfp-close {
+    cursor: pointer;
+}
+
+
+/*===========================
+    Estilos Directiva CSS 
+===========================*/
+@media (max-width: 319px) {
+  .container-directiva {
+      width: 90%;
+      flex-direction: column;
+  }
+
+  .div-item-img, .item-img {
+      width: 60vw;
+      height: 60vw;
+  }
+
+  .div-item-img {
+      margin: 3%;
+  }
+
+  .modal-founder {
+      width: 85vw;
+  }
+
+  .modal-body-founder {
+      height: 230px;
+  }
+
+  .img-founder-modal {
+      width: 38vw;
+      height: 38vw;
+  }
+
+  .font-size {
+      font-size: 12px;
+  }
+
+  .font-size-founder {
+      font-size: 14px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container-directiva {
+      width: 90%;
+      flex-direction: column;
+  }
+
+  .div-item-img, .item-img {
+      width: 55vw;
+      height: 55vw;
+  }
+
+  .div-item-img {
+      margin: 2%;
+  }
+
+  .modal-founder {
+      width: 75vw;
+  }
+
+  .modal-body-founder {
+      height: 270px;
+  }
+
+  .img-founder-modal {
+      width: 30vw;
+      height: 30vw;
+  }
+
+  .font-size {
+      font-size: 13px;
+  }
+
+  .font-size-founder {
+      font-size: 16px;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .container-directiva {
+      width: 90%;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .div-item-img, .item-img {
+      text-align: center;
+      width: 40vw;
+      height: 40vw;
+  }
+
+  .div-item-img {
+      margin: 2vw;
+  }
+
+  .modal-founder {
+      width: 60vw;
+  }
+
+  .modal-body-founder {
+      height: 290px;
+  }
+
+  .img-founder-modal {
+      width: 25vw;
+      height: 25vw;
+  }
+
+  .font-size {
+      font-size: 14px;
+  }
+
+  .font-size-founder {
+      font-size: 20px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-directiva {
+      width: 85vw;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .div-item-img, .item-img {
+      text-align: center;
+      width: 30vw;
+      height: 30vw;
+  }
+
+  .div-item-img {
+      margin: 4%;
+  }
+
+  .modal-founder {
+      width: 45vw;
+  }
+
+  .modal-body-founder {
+      height: 300px;
+  }
+
+  .img-founder-modal {
+      width: 16vw;
+      height: 16vw;
+  }
+
+  .font-size {
+      font-size: 14px;
+  }
+
+  .font-size-founder {
+      font-size: 21px;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) { 
+  .container-directiva {
+      width: 90vw;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .div-item-img, .item-img {
+    text-align: center;
+      width: 25vw;
+      height: 25vw;
+  }
+
+  .div-item-img {
+      margin: 2%;
+  }
+
+  .modal-founder {
+      width: 37vw;
+  }
+
+  .modal-body-founder {
+      height: 320px;
+  }
+
+  .img-founder-modal {
+      width: 12vw;
+      height: 12vw;
+  }
+
+  .font-size {
+      font-size: 14.5px;
+  }
+
+  .font-size-founder {
+      font-size: 22px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container-directiva {
+      width: 90vw;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .div-item-img, .item-img {
+      width: 18vw;
+      height: 18vw;
+      text-align: center;
+  }
+
+  .div-item-img {
+      margin: 2%;
+  }
+
+  .modal-founder {
+      width: 35vw;
+  }
+
+  .modal-body-founder {
+      height: 350px;
+  }
+
+  .img-founder-modal {
+      width: 11vw;
+      height: 11vw;
+  }
+
+  .font-size {
+      font-size: 15px;
+  }
+
+  .font-size-founder {
+      font-size: 22px;
+  }
+}
